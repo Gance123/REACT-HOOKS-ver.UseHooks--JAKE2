@@ -3,7 +3,7 @@ import { useAllUsers } from "./hooks/useAllUsers";
 import "./styles.css";
 
 export default function App() {
-  // ロジック部分を切り抜いて新たに作成したhooksから、必要な引数と関数を呼び出す
+  // ロジック部分を切り抜いて新たに作成したhooksから、必要なStateとActionを呼び出す
   //・・・ロジック部分とは、例えばuseStateでいうset~~~の部分
   const { getUsers, userProfile, loading, error } = useAllUsers();
 
